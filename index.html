@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Document title -->
+      <title>People's Foundation</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charSet="utf-8" />
+      <meta property="og:image:width" content="500" />
+      <meta property="og:image:height" content="500" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta content="en" http-equiv="content-language" />
+      <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+      <meta content="yes" name="apple-mobile-web-app-capable" />
+      <meta content="true" name="HandheldFriendly" />
+      <meta content="width" name="MobileOptimized" />
+      <meta property="og:type" content="website" />
+      <meta name="robots" content="index, follow" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="People's Foundation" />
+      <meta property="og:title" content="People's Foundation" />
+      <meta property="og:image" content="img/favicon.png" />
+      <link rel="icon" type="image/png" href="img/favicon.png">
+      <link rel="shortcut icon" href="img/favicon.png" />
+      <link rel="apple-touch-icon" href="img/favicon.png" />
+      <link rel="shortcut icon" href="img/favicon.png" />
+      <link rel="apple-touch-icon-precomposed" href="img/favicon.png">
+      <meta property="twitter:image" content="img/favicon.png" />
+      <link rel="apple-touch-icon" sizes="16x16" href="img/favicon-16x16.png" />
+      <link rel="apple-touch-icon" sizes="32x32" href="img/favicon-32x32.png" />
+      <!-- Stylesheets & Fonts -->
+      <link href="css/plugins.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <script src="js/jquery.js"></script>
+      <script src="https://sortablejs.github.io/Sortable/Sortable.js"></script>
+      <style type="text/css">
+         
+         ::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
+      </style>
+   </head>
+   <body style="word-break:break-word;">
+      <!-- Body Inner -->
+      <div class="body-inner">
+         <!-- Header -->
+         <!-- end: Header -->
+         <!-- Section -->
+         <section class="fullscreen" data-bg-parallax="img/peoples-foundation_banner.jpg">
+            <div class="shape-divider" data-style="1" ></div>
+            <div class="container-wide m-t-0">
+               <div class="container-fullscreen">
+                  <div class="text-middle text-center ">
+                     <div class="heading-text heading-gradient  col-lg-12">
+                        <h1 style="font-size: 3.5rem; font-weight: 600;">
+                           <span style="color: #ffb300; margin-left: -10px;">P</span>
+                           <span style="color: #ff6136; margin-left: -14px;">e</span>
+                           <span style="color: #7a4f99; margin-left: -14px;">o</span>
+                           <span style="color: #018cbe; margin-left: -14px;">p</span>
+                           <span style="color: #ffb300; margin-left: -14px;">l</span>
+                           <span style="color: #ff6136; margin-left: -14px;">e</span>
+                           <span style="color: #cc0052; margin-left: -14px;">'s</span>
+                           <span style="word-break:keep-all">Foundation</span>
+                        </h1>
+                        <p style="color:black;font-weight: 700;">How do you see the world a better place?</p>
+                     </div>
+                     <div class="scrolldown-animation" id="scroll-down" style="bottom: auto;">
+                        <a class="scroll-to text-dark" href="#section-2"><i class="fa fa-3x  fa-chevron-down"></i>
+                        </a>              
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- end: Section -->
+         <!-- Section -->
+         <section class="fullscreen" id="section-2">
+            <div class="bg-overlay" data-style="6" style="background: radial-gradient(circle at left top, purple 38%, #4294FA 66%);"></div>
+            <div class="shape-divider" data-style="2"></div>
+            <div class="shape-divider" data-style="2" data-position="top" data-flip-vertical="true"></div>
+            <div class="container-wide ">
+               <div class=" heading-text heading-section text-center   " data-animate="fadeInUp">
+                  <h3 class="text-white" style="font-size:34px">We’d like to include everyone in the conversation of how we make this world better. </h3>
+                  <span class="lead text-white">Every year, we allocate funds according to the weighted results of the feedback we receive from our surveys.</span>
+                  <div class="card m-t-40 col-lg-5 " style="background-color: #48484885;margin: auto;box-shadow: 0px 0px 20px 10px #efefef;">
+                     <div class="card-header text-white" style="background-color: transparent;">
+                        <h3 class="card-title ">What do you think are the most important causes we should fund?</h3>
+                     </div>
+                     <div class="card-body">
+                        <form  id="survey-question" class="form-validate " method="POST" style="margin:auto;">
+                           <div data-arrange="html5-sortable" id="sortable" >
+                              <div draggable="true"><span class="btn  survey-ans btn-light  btn-outline  btn-light-hover btn-block" >Education<i class="icon-move m-l-0" style="float: right;"></i></span></div>
+                              <div draggable="true"><span class="btn  survey-ans btn-light  btn-outline  btn-light-hover btn-block" >Animal Welfare<i class="icon-move m-l-0" style="float: right;"></i></span></div>
+                              <div draggable="true"><span class="btn  survey-ans btn-light  btn-outline  btn-light-hover btn-block" >Poverty<i class="icon-move m-l-0" style="float: right;"></i></span></div>
+                              <div draggable="true" ><span class="btn  survey-ans btn-light  btn-outline  btn-light-hover btn-block" >Global Catastrophic Risks<i class="icon-move m-l-0" style="float: right;"></i></span></div>
+                              <div draggable="true" ><span class="btn  survey-ans btn-light  btn-outline  btn-light-hover btn-block" >Health & Development<i class="icon-move m-l-0" style="float: right;" style="float: right;"></i></span></div>
+                              <div draggable="true" ><span class="btn  survey-ans btn-light  btn-outline  btn-light-hover btn-block" >Media Manipulation<i class="icon-move m-l-0" style="float: right;"></i></span></div>
+                           </div>
+                           <script type="text/javascript">
+                              new Sortable(document.getElementById("sortable"), {
+                               animation: 150,
+                               ghostClass: 'blue-background-class'
+                              });
+                           </script>
+                           <div class="form-group m-t-30">
+                              <input type="text" name="txtEmail" class="form-control" id="survey-email" placeholder="Your Email" required>
+                           </div>
+                           <div id="submitMessage">
+                           </div>
+                           <div class="col-md-12">
+                              <div class="form-group">
+                                 <button type="submit" class="btn  btn-light  btn-outline  btn-light-hover btn-block">Submit</button>
+                              </div>
+                           </div>
+                        </form>
+                        <script>
+                           $('#survey-question').submit(function(e) {
+                           
+                              e.preventDefault();    
+                           
+                              var answers = [];
+                           
+                              $('.survey-ans').each(function() {
+                                var el = $(this);
+                           
+                                answers.push($(this).text());  
+                           
+                             });
+                           
+                             var email = $('#survey-email').val();
+                           
+                             $.ajax({
+                              url: "https://script.google.com/macros/s/AKfycbwRUajpSRaRItH9jgS9ADdey0GndQepwyXVEX3Q3n4qQiCpCWbi0OAHOT0aXuLR14ug-A/exec",
+                              type: "post",
+                              data: {
+                                "formDataNameOrder":JSON.stringify(["Email","Topic","first","second","third","fourth","fifth","sixth"]),
+                                "Email":email,
+                                "Topic":"urgent-issue",
+                                "first":answers[0],
+                                "second":answers[1],
+                                "third":answers[2],
+                                "fourth":answers[3],
+                                "fifth":answers[4],
+                                "sixth":answers[5]
+                             },
+                              beforeSend: function() {
+                           
+                                  $("#submitMessage").html(`<div class="d-flex justify-content-center">
+                                           <div class="spinner-border" role="status">
+                                               <span class="sr-only">Loading...</span>
+                                           </div>
+                                       </div>`);
+                           
+                               },
+                             success:function(data){
+                                if(data["result"]=="success"){
+                           
+                                  $("#submitMessage").html(`<div role="alert" class="alert alert-success alert-dismissible">
+                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span> </button>
+                                  <strong><i class="fa fa-check-circle"></i> Success!</strong> Response Successfully Submitted</div>`);
+                           
+                           
+                           
+                               }else{
+                           
+                                  $("#submitMessage").html(`<div role="alert" class="alert alert-warning alert-dismissible">
+                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span> </button>
+                                  <strong><i class="fa fa-check-circle"></i> Warning!</strong> Something went wrong</div>`);
+                           
+                               }
+                            },
+                            error:function (jqXHR, exception) {
+                           
+                             $("#submitMessage").html(`<div role="alert" class="alert alert-warning alert-dismissible">
+                             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span> </button>
+                             <strong><i class="fa fa-check-circle"></i> Warning!</strong> Something went wrong</div>`);
+                           },
+                           complete:function(data){
+                           
+                             console.log("completed");
+                           }
+                           });
+                           
+                           });
+                           
+                        </script>
+                     </div>
+                     <div class="text-center text-white">
+                        <div class="icon"><i class="fa-3x  icon-users"></i></div>
+                        <div class="counter"> <span data-speed="4500" id="people-finished-counter" data-refresh-interval="23" data-to="150" data-from="1" data-seperator="true"></span> </div>
+                        <div class="seperator seperator-small"></div>
+                        <p>People have finished this survey in the last hour.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <script>
+            $(document).ready(function(){
+            var x = Math.floor((Math.random() * 150) + 5);
+             $("#people-finished-counter").attr("data-to",x);
+            });
+            
+         </script>
+      </div>
+      <!-- end: Section -->
+      <!-- Section -->
+      <section class="fullscreen"  id="section-3">
+         <div class="bg-overlay" data-style="3"></div>
+         <div class="shape-divider" data-style="3"></div>
+         <div class="shape-divider" data-style="3" data-position="top" data-flip-vertical="true"></div>
+         <div class="container">
+            <div class=" heading-text heading-section text-center text-white m-t-50" data-animate="fadeInUp">
+               <h3 style="font-size:25px;line-height: 30px;margin-bottom: 0px;">Every year, we make donations to the most effective charities in the world.</h3>
+            </div>
+            <div class="row">
+               <div class="col-lg-3" style="padding: 1.5rem; margin: 10px;">
+                  <div class="tabs">
+                     <ul class="nav nav-pills flex-column " id="myTab3" role="tablist">
+                        <li class="nav-item" data-animate="fadeInLeft">
+                           <a class="nav-link active show btn btn-light  btn-outline  btn-light-hover" id="fixing-tab" data-toggle="tab" href=#fixing role="tab" aria-controls="fixing" aria-selected="false">What are we fixing?</a>
+                        </li>
+                        <li class="nav-item" data-animate="fadeInLeft">
+                           <a class="nav-link btn btn-light  btn-outline  btn-light-hover" id="different-tab" data-toggle="tab" href=#different role="tab" aria-controls="different" aria-selected="false">How are we different?</a>
+                        </li>
+                        <li class="nav-item" data-animate="fadeInLeft">
+                           <a class="nav-link btn btn-light  btn-outline btn-light-hover" id="Promise-tab" data-toggle="tab" href=#Promise role="tab" aria-controls="Promise" aria-selected="false">Our Promise</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="text-white col-lg-8 m-b-100" style="margin: 30px;"  data-animate="fadeInRight">
+                  <div class="tab-content" id="myTab3">
+                     <div class="tab-pane fade active show" id="fixing" role="tabpanel" aria-labelledby="fixing-tab">
+                        <h3 class="card-title" style="font-weight:600">What are we fixing?</h3>
+                        <h5 class="card-subtitle text-muted">It’s incredibly difficult to give away money. To give effectively means to fully understand global problems and channel funds to organizations that deal with those problems. The issue is that individuals deciding what causes are important is just not productive, nor is it fair. People collectively should be involved in decisions on reshaping our world. </h5>
+                     </div>
+                     <div class="tab-pane fade" id="different" role="tabpanel" aria-labelledby="different-tab">
+                        <h3 class="card-title" style="font-weight:600">How are we different?</h3>
+                        <h5 class="card-subtitle text-muted">Our effectiveness is the cornerstone of our might. We don’t operate with traditional baggage like offices, administrative staff, and other overhead costs. Our structure allows us to provide continuing support for organizations that prove to make a difference.</h5>
+                     </div>
+                     <div class="tab-pane fade" id="Promise" role="tabpanel" aria-labelledby="Promise-tab">
+                        <h3 class="card-title" style="font-weight:600">Our Promise</h3>
+                        <h5 class="card-subtitle text-muted">We promise to always put people’s voice first, to base our decisions not on personal.</h5>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end: Section -->
+      <!-- Section -->
+      <section class="fullscreen"  id="section-4" data-bg-parallax="img/2nd_illustration_final_v21.png">
+         <div class="bg-overlay" data-style="10"></div>
+         <div class="shape-divider" data-style="4" data-position="top" data-flip-vertical="true"></div>
+         <div class="shape-divider" data-style="4"></div>
+         <div class="container">
+            <div class="container-fullscreen">
+               <div class="text-middle text-light" data-animate="fadeInLeft">
+                  <div class="heading-text col-lg-6">
+                     <h4 class="font-weight-600" ><span>People’s Foundation currently allows anyone to be a part of the difference we make. </span></h4>
+                     <p>One time contribution of $<input class="form-control text-light text-white text-center" aria-label="Amount (to the nearest dollar)" type="number" id="contri_dollar" value="1000" style="display: inline;font-size: 18px;width: 15%;background-color: transparent !important;min-width: 101px;border: 0px;border-bottom: 1px solid;border-radius: 0px;padding: 0px;"> 
+                        will allow us to donate on average $<input class="form-control text-light text-white text-center" aria-label="Amount (to the nearest dollar)" type="number" id="average_dollar" value="128" style="display: inline;font-size: 18px;width: 15%;background-color: transparent !important;min-width: 101px;border: 0px;border-bottom: 1px solid;border-radius: 0px;padding: 0px;"> 
+                     more to the most effective charities over the next 50 years <button data-toggle="tooltip" data-toggle="tooltip" data-placement="top" title="How it works" style="background: transparent;border: 0px;"><a data-target="#modal-1" data-toggle="modal" href="#" style="border-bottom: 1px solid;" >as shown above.</a></button></p>
+                     <script>
+                        $('#contri_dollar').on('input', function() {
+                                             // do something
+                                             $('#average_dollar').val($('#contri_dollar').val()*0.128);
+                        
+                                          });
+                        $('#average_dollar').on('input', function() {
+                                             // do something
+                                             $('#contri_dollar').val($('#average_dollar').val()*7.8125);
+                        
+                                          });
+                                       
+                     </script>
+                  </div>                  
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+         <div class="modal fade" id="modal-1" tabindex="-1" role="modal" aria-labelledby="modal-label-2" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 id="modal-label-2" class="modal-title">Because the brighter future you imagine is worth having</h4>
+                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>An Impact Account gives you a place to think about the change you want to make in the world, plan your giving, and take advantage of tools and support for making your biggest impact possible.<br>Opening and using an Impact Account is free, and you can get started by adding $5, $500, or more—it's up to you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="float-left">
+                            <button data-dismiss="modal" class="btn btn-dark  btn-outline btn-light-hover" type="button">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- end: Section -->
+      <!-- Section -->
+      <section class="fullscreen" data-bg-parallax="img/2nd_illustration_final_v2.png" >
+         <div class="bg-overlay" data-style="5"></div>
+         <div class="shape-divider" data-style="5" data-position="top" data-flip-vertical="true"></div>
+         <div class="shape-divider" data-style="5"></div>
+         <div class="container">
+            <div class="container-fullscreen">
+               <div class="text-middle" style="width:-webkit-fill-available">
+                  <div class="heading-text text-light">
+                     <h2 style="font-size:34px" class="font-weight-600" data-animate="fadeIn"><span>FAQs</span></h2>
+                     <div class="accordion row" >
+                        <div class="col-lg-6">
+                           <div class="ac-item ac-active" data-animate="fadeInLeft">
+                              <h5 class="ac-title" style="font-size:15px">How do you create a list of causes to support?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">We update the list constantly to better align with the causes people care about.<br> We also accept suggestions on causes that are often overlooked.</p>
+                              </div>
+                           </div>
+                           <div class="ac-item" data-animate="fadeInLeft">
+                              <h5 class="ac-title" style="font-size:15px">I'd like to volunteer, how can I join?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">We accept applications and provide volunteer hours. Please send your resume to info@ruthlessgiving.org</p>
+                              </div>
+                           </div>
+                           <div class="ac-item" data-animate="fadeInLeft">
+                              <h5 class="ac-title" style="font-size:15px">How do you decide which charities to fund?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">Charities are recommended from rigurous charity evaluators and reputable foundations that specialize in specific causes.</p>
+                              </div>
+                           </div>
+                           <div class="ac-item" data-animate="fadeInLeft">
+                              <h5 class="ac-title" style="font-size:15px">Can I donate publicly traded stocks, real estate, life insurance or cryptocurrency?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">Yes, you can donate all of the above by contacting us at info@ruthlessgiving.org or with a via our contact form below</p>
+                              </div>
+                           </div>
+                           <div class="ac-item" data-animate="fadeInLeft">
+                              <h5 class="ac-title" style="font-size:15px">Do you have fees?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">We do not have fees, we use a Donor Advised Fund (DAF) to facilitate our operation, and all DAF fees and money management fees are covered by the Ruthless Giving Organization. For donations made by the credit card, transactional fees will apply.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="ac-item" data-animate="fadeInRight">
+                              <h5 class="ac-title" style="font-size:15px">How does the People's Foundation raise money?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">People's Foundation raises money from visionary individuals and institutions that share our mission, to better this world around us in the most productive way.</p>
+                              </div>
+                           </div>
+                           <div class="ac-item" data-animate="fadeInRight">
+                              <h5 class="ac-title" style="font-size:15px">Can I withdraw my funds back into my bank account?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">We’re afraid not. As soon as a donation receipt is provided, the contribution becomes tax exempt, and cannot be withdrawn.</p>
+                              </div>
+                           </div>
+                           <div class="ac-item" data-animate="fadeInRight">
+                              <h5 class="ac-title" style="font-size:15px">Why do you believe this model works?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">We strongly believe to productively impact the world we live in, we must act together through a democratic model that includes everyone in the conversation.</p>
+                              </div>
+                           </div>
+                           <div class="ac-item" data-animate="fadeInRight">
+                              <h5 class="ac-title" style="font-size:15px">Is the People's Foundation a registered charity?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">People's Foundation uses a Donor Advised Fund (DAF) to hold funds, which is a registered charity. In Canada we use Charitable Impact 845528827RR0001.</p>
+                              </div>
+                           </div>
+                           <div class="ac-item" data-animate="fadeInRight">
+                              <h5 class="ac-title" style="font-size:15px">Is my contribution tax deductible?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">Yes, your tax reciept will be emailed to you as soon as your donation is processed.</p>
+                              </div>
+                           </div>
+                           <div class="ac-item m-b-100" data-animate="fadeInRight">
+                              <h5 class="ac-title" style="font-size:15px">What do you do with my email?</h5>
+                              <div class="ac-content">
+                                 <p style="font-size:13px">We use your email to communicate with you about upcoming decision and we rely on your feedback on the direction in which People's Foundation moves. We do not share your email with any of the charities we fund, nor do we share your email with any 3rd party agencies.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="fullscreen" >
+         <div class="bg-overlay" data-style="7"></div>
+         <div class="shape-divider" data-style="8" data-position="top" data-flip-vertical="true"></div>
+         <div class="shape-divider" data-style="8"></div>
+         <div class="container">
+            <div class="container-fullscreen">
+               <div class="text-middle" style="width:-webkit-fill-available">
+                  <div class="heading-text text-light m-t-50">
+                     <div class="card m-t-40 col-lg-7" style="background-color: #48484885;box-shadow: 0px 0px 20px 10px #efefef;" data-animate="fadeInLeft">
+                         <div class="card-header" style="background-color:transparent;">
+                             <span class="h4">Contact</span>
+                             <p class="text-muted">Let’s get in touch</p>
+                         </div>
+                         <div class="card-body">
+                             <form id="form2" class="form-validate" method="POST">
+                                 <div class="row">
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <input type="text" name="txtfname" class="form-control" placeholder="First Name" required>
+                                         </div>
+                                          <div class="form-group">
+                                             <input type="text" name="txtlname" class="form-control" placeholder="Last Name" required>
+                                         </div>
+                                         <div class="form-group">
+                                             <input type="text" name="txtEmail" class="form-control" placeholder="Your Email" required>
+                                         </div>
+                                     </div>
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <textarea name="txtMsg" class="form-control" placeholder="Your Message" style="width: 100%; min-height: 160px;" required></textarea>
+                                         </div>
+                                     </div>
+                                     <div class="col-md-12">
+                                         <div class="form-group">
+                                             <button type="submit" class="btn btn-light  btn-outline btn-light-hover">Submit</button>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </form>
+                         </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer" class="bg-transparent">
+         <div class="copyright-content">
+            <div class="container">
+               <div class="copyright-text text-center" >&copy; 2021 People's Foundation - All Rights Reserved.</div>
+
+            </div>
+         </div>
+      </footer>
+      <!-- end: Footer -->
+      </div>
+      <!-- end: Body Inner -->
+      <!-- Scroll top -->
+      <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+      <!--Plugins-->
+
+      <script src="js/popper.min.js"></script>
+      <script src="js/plugins.js"></script>
+      <!--Template functions-->
+      <script src="js/functions.js"></script>
+   </body>
+</html>
